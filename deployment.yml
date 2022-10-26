@@ -1,3 +1,7 @@
-To be added
+# To be added
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
       name: hellonode
 # commented
