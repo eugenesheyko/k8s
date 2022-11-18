@@ -12,6 +12,7 @@ WORKDIR /go/src/github.com/kubernetes-up-and-running/kuard
 # Copy all sources in
 COPY . .
 
+#
 # This is a set of variables that the build script expects
 ENV VERBOSE=0
 ENV PKG=github.com/kubernetes-up-and-running/kuard
