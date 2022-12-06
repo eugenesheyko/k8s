@@ -4,6 +4,7 @@ WORKDIR /src
 
 COPY MultiStage.csproj .
 RUN dotnet restore MultiStage.csproj
+RUN docker --version
 
 COPY . .
 RUN dotnet build MultiStage.csproj -c Release
