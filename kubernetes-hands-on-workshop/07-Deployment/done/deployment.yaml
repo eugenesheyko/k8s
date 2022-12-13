@@ -14,11 +14,11 @@ spec:
       # no name
       labels:
         app: hellonode
-        version: v0.2
+        version: v0.3
     spec:
       containers:
       - name: hellonode
-        image: hellonode:0.2
+        image: hellonode:0.3
         ports:
         - containerPort: 3000
 
