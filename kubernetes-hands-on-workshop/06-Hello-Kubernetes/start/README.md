@@ -23,7 +23,7 @@ Step 1: Craft a pod.yaml file
 
 In general we won't craft pods directly.  Rather we'll build pods as part of a deployment.  Let's get familiar with what is a pod so when we build a deployment these concepts make sense.
 
-**Note:** Yaml files are white-space significant.  Indenting is done with **2 spaces**, not 4 spaces, not tabs.
+**Note:** Yaml files are white-space significant. Indenting is done with **2 spaces**, not 4 spaces, not tabs.
 
 Each Kubernetes object has an `apiVersion`, a `kind`, a `metadata` section, and a `spec` section that holds the details.
 
