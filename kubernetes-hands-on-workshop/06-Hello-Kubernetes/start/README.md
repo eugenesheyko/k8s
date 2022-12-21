@@ -4,7 +4,7 @@ My First Container
 We're going to run our first container on Kubernetes.
 
 
-Step 0: Ensure Kubernetes is running
+*Step 0: Ensure Kubernetes is running
 ------------------------------------
 
 1. Run `kubectl cluster-info` and `kubectl version`.  If it errored, return to exercise 0 to ensure you're running a Kubernetes runtime.  If you're using Docker Desktop, ensure you're in Linux mode, and you've enabled Kubernetes.
