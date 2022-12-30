@@ -34,4 +34,4 @@ Deleting
 
 You could also delete each thing by name, e.g. `kubectl delete hellonode-service`.
 
-**Note:** Do **not** delete the `service/kubernetes` service.  This is the API we're sending `kubectl` commands to.  If this service is gone, the cluster is broken.  If you've done this, go to the task tray, open the Docker settings, choose Reset, and click `Reset Kubernetes Cluster`.
+**Note:** Do **NOT** delete the `service/kubernetes` service.  This is the API we're sending `kubectl` commands to.  If this service is gone, the cluster is broken.  If you've done this, go to the task tray, open the Docker settings, choose Reset, and click `Reset Kubernetes Cluster`.
