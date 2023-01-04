@@ -6,6 +6,7 @@ COPY MultiStage.csproj .
 RUN dotnet restore MultiStage.csproj
 RUN echo "docker --version"
 RUN echo "read books"
+RUN pwd
 
 COPY . .
 RUN dotnet build MultiStage.csproj -c Release
