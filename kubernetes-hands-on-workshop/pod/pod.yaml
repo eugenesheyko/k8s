@@ -4,10 +4,10 @@ metadata:
   name: hellonode
   labels:
     app: hellonode
-    version: v0.1
+    version: v0.2
 spec:
   containers:
   - name: hellonode
-    image: hellonode:0.1
+    image: hellonode:0.2
     ports:
     - containerPort: 3000
