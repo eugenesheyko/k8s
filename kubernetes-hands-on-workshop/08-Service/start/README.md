@@ -32,7 +32,7 @@ For this exercise, we're going to be using the `hellonode:0.1` image built in ex
 Step 1: Craft a service.yaml file
 -----------------------------
 
-**Note:** Yaml files are white-space significant.  Indenting is done with **2 spaces**, not 4 spaces, not tabs.
+***Note:*** Yaml files are white-space significant.  Indenting is done with **2 spaces**, not 4 spaces, not tabs.
 
 1. Create a new file named `service.yaml`.
 
