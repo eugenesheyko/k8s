@@ -23,11 +23,11 @@ Step 1: Craft a deployment.yaml file
 
 Usually we don't deal with pods directly, but rather build them as part of deployments.  We'll transform the pod file built in the last exercise into a deployment in this excercise.
 
-**Note:** Yaml files are white-space significant.  Indenting is done with **2 spaces**, not 4 spaces, not tabs.
+***Note:*** Yaml files are white-space significant.  Indenting is done with **2 spaces**, not 4 spaces, not tabs.
 
 1. Copy the `pod.yaml` file build in the previous example, and rename it `deployment.yaml`.
 
-   **Pro tip:** Don't copy and paste the files, rather re-type them to get more experience with this content.
+   ***Pro tip:*** Don't copy and paste the files, rather re-type them to get more experience with this content.
 
 2. Open `deployment.yaml` in a text editor.
 
@@ -92,7 +92,7 @@ Usually we don't deal with pods directly, but rather build them as part of deplo
 
    We've defined what the pod would look like, but there's some things that don't fit here.  The deployment file is **not valid** yet.
 
-9. **Remove** these lines from the template:
+9. ***Remove*** these lines from the template:
 
    ```
        apiVersion: v1
@@ -101,7 +101,7 @@ Usually we don't deal with pods directly, but rather build them as part of deplo
 
    Deployments can only create pods, so no need to specify that the template's content is a pod.
 
-10. **Remove** this line from the template:
+10. ***Remove*** this line from the template:
 
     ```
           name: hellonode
@@ -155,7 +155,7 @@ Step 2: Schedule the deployment
    kubectl get all
    ```
 
-   This shows **most** of the things running in Kubernetes in the default namespace.  Here it shows both the deployment and the pods.
+   This shows ***most*** of the things running in Kubernetes in the default namespace. Here it shows both the deployment and the pods.
 
 5. Let's leave the deployment running, and next build a service to NAT traffic into the pods.
 
