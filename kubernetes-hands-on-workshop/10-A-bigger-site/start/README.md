@@ -39,7 +39,7 @@ Frontend
 
 2. Copy the `deployment.yaml` from exercise 7, and the `service.yaml` from exercise 8 into this frontend folder.  We don't need the `pod.yaml` file from exercise 6.
 
-   **Bonus:** Don't copy/paste, but rather retype these files to build muscle memory and familiarity with the file formats.
+   ***Bonus:*** Don't copy/paste, but rather retype these files to build muscle memory and familiarity with the file formats.
 
 3. Open up `deployment.yaml`.
 
@@ -63,13 +63,13 @@ Backend
 
 2. Copy the `deployment.yaml` and `service.yaml` from the Frontend steps above into the `backend` folder.
 
-   **Bonus:** Don't copy/paste, but rather retype these files to build muscle memory and familiarity with the file formats.
+   ***Bonus:*** Don't copy/paste, but rather retype these files to build muscle memory and familiarity with the file formats.
 
 3. Modify the `backend` folder's `service.yaml` and `deployment.yaml` from port 3000 to port 5000.
 
 4. Modify the `backend` folder's `deployment.yaml` to specify `replicas: 1`.
 
-   **Note:** The code has a static list of all the votes (pretending to be a database), so we only want one of them.  If we were doing this for real, we'd store this data in an external database, and ramp the backend replicas up to at least 3 for high availability.
+   ***Note:*** The code has a static list of all the votes (pretending to be a database), so we only want one of them.  If we were doing this for real, we'd store this data in an external database, and ramp the backend replicas up to at least 3 for high availability.
 
 5. Modify other references in both backend files, renaming everything from `frontend` to `backend`.
 
@@ -81,7 +81,7 @@ Backend
 Schedule all the things
 -----------------------
 
-1. Open a terminal in the **backend** folder, and run this command:
+1. Open a terminal in the ***backend*** folder, and run this command:
 
    ```
    kubectl apply -f service.yaml
@@ -95,7 +95,7 @@ Schedule all the things
    kubectl apply -f deployment.yaml
    ```
 
-3. `cd` into the **frontend** folder, and run these commands:
+3. `cd` into the ***frontend*** folder, and run these commands:
 
    ```
    kubectl apply -f deployment.yaml
