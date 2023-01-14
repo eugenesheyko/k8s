@@ -11,7 +11,7 @@ We've tagged the image with the registry name and pushed it to Azure Container R
 
 1. Copy the `frontend` and `backend` folders from exercise 10: A bigger site into this folder.
 
-   **Pro tip:** Don't copy and paste the files, rather re-type them to get more experience with this content.
+   ***Pro tip:*** Don't copy and paste the files, rather re-type them to get more experience with this content.
 
 2. Open the `backend/deployment.yaml` file in a text editor.
 
@@ -31,7 +31,7 @@ We've tagged the image with the registry name and pushed it to Azure Container R
 Schedule all the things
 -----------------------
 
-1. Open a terminal in the **backend** folder, and run this command:
+1. Open a terminal in the ***backend*** folder, and run this command:
 
    ```
    kubectl apply -f service.yaml
@@ -45,7 +45,7 @@ Schedule all the things
    kubectl apply -f deployment.yaml
    ```
 
-3. `cd` into the **frontend** folder, and run these commands:
+3. `cd` into the ***frontend*** folder, and run these commands:
 
    ```
    kubectl apply -f deployment.yaml
