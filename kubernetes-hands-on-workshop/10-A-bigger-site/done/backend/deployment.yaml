@@ -11,10 +11,10 @@ spec:
     metadata:
       labels:
         app: backend
-        version: v0.2
+        version: v0.3
     spec:
       containers:
       - name: backend
-        image: backend:0.2
+        image: backend:0.3
         ports:
         - containerPort: 5000
