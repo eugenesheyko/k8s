@@ -11,10 +11,10 @@ spec:
     metadata:
       labels:
         app: frontend
-        version: v0.2
+        version: v0.3
     spec:
       containers:
       - name: frontend
-        image: frontend:0.2
+        image: frontend:0.3
         ports:
-        - containerPort: 3000
+        - containerPort: 3001
