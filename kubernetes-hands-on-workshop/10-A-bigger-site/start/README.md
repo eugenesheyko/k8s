@@ -124,4 +124,4 @@ Visit the site
 
 2. Browse to `http://localhost:NODE_PORT/` substituting the `NodePort` you found above.  My service was on port `30123` so I'll browse to `http://localhost:30123/`.
 
-Success!  We're using microservices in Kubernetes!
+***Success! We're using microservices in Kubernetes!***
