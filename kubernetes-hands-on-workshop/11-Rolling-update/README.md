@@ -3,7 +3,7 @@ Rolling Update
 
 Let's imagine we need to update the front-end site with zero down-time.
 
-A new requirement has come in.  Instead of "Votes", they want the site to say "Likes".
+A new requirement has come in. Instead of ***Votes***, they want the site to say ***Likes***.
 
 
 Step 1: Modify the code
@@ -11,7 +11,7 @@ Step 1: Modify the code
 
 1. In the code for exercise 04-A-bigger-site, open the file `frontend/views/index.hbs` in a text editor.
 
-2. Change the word "Votes" to "Likes".
+2. Change the word ***Votes*** to ***Likes***.
 
 3. Save the file.
 
@@ -73,7 +73,7 @@ Step 5: Schedule the new content
 Step 6: Rollback
 ----------------
 
-Aaah!  Someone wasn't ready.  "Roll it back!"
+Aaah!  Someone wasn't ready.  ***Roll it back!***
 
 1. From a terminal, run:
 
@@ -85,7 +85,7 @@ Aaah!  Someone wasn't ready.  "Roll it back!"
 
    Can we get the old pods back?  Nope.  They're ephemeral -- they really got deleted.
 
-3. Refresh the front-end website.  It now says "Votes" again.
+3. Refresh the front-end website.  It now says ***Votes*** again.
 
 Note:  If we undid again, we'd put 0.2 back.  Undo a third time and we'll be on 0.1.
 
