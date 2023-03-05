@@ -11,7 +11,7 @@ You can also use private repositories such as [AWS Container Registry](https://a
 Using Docker Hub
 ----------------
 
-We've been using `docker pull ...` throughout this course.  Each time we've done this, we've pulled content from docker hub.
+We've been using ***docker pull ...*** throughout this course.  Each time we've done this, we've pulled content from docker hub.
 
 Browse [https://hub.docker.com/](https://hub.docker.com/) to find other images to download.  With each image, you'll likely find a Dockerfile showing how that image was built.
 
@@ -29,17 +29,17 @@ Adding to Docker Hub
    docker login
    ```
 
-3. Note the Docker system tray menu now shows your name and `Logout`.
+3. Note the Docker system tray menu now shows your name and ***Logout***.
 
-4. Tag an image in the form `username/imagename:version`, so I would tag a node image as `robrich/backend:0.1`.  Note the registry details are in the image name.  Sadly, this makes it difficult to move images between container registries or cache a container registry.
+4. Tag an image in the form ***username/imagename:version***, so I would tag a node image as ***robrich/backend:0.1***.  Note the registry details are in the image name.  Sadly, this makes it difficult to move images between container registries or cache a container registry.
 
    ```
    docker tag backend:0.1 username/backend:0.1
    ```
 
-   Substitute your docker username for `username`.
+   Substitute your docker username for ***username***.
 
-5. `docker push username/imagename:version` will push new images to Docker hub.
+5. ***docker push username/imagename:version*** will push new images to Docker hub.
 
    ```
    docker push username/backend:0.1
@@ -55,16 +55,16 @@ Adding to Docker Hub
 
    Substitute the details of the image you tagged above.  Because you already have it locally, it'll successfully do nothing.
 
-7. Docker uses the tag `latest` when a version isn't specified, but this tag is no different than any other tag.  Let's tag the image as `latest` and push that one too.
+7. Docker uses the tag ***latest*** when a version isn't specified, but this tag is no different than any other tag.  Let's tag the image as ***latest*** and push that one too.
 
-   Substitute your docker username for `username` in both these commands:
+   Substitute your docker username for ***username*** in both these commands:
 
    ```
    docker tag backend:0.1 username/backend
    docker push username/backend
    ```
 
-8. Repeat steps 5, 6, and 7 for the `frontend:0.1` container.
+8. Repeat steps 5, 6, and 7 for the ***frontend:0.1*** container.
 
 9. Now that your image is on Docker hub, you could delete the image, and grab it again using:
 
