@@ -17,21 +17,25 @@ The big 3 cloud providers all provide:
 
 In general, all cloud providers provide the basic services:
 
+***
 - VMs
 - File Storage
 - Databases
 - Container orchestration
 - Website hosting for various platforms
 - Turnkey experiences for various online properties (e.g. WordPress)
+***
 
 In general, they all follow each others' pricing strategies to ensure their products are competitive.  The result is cloud prices are usually the same across clouds.
 
 So why would you choose one cloud provider over another?
 
+***
 - Brand preference or avoidance
 - You're already using their other services
 - Specialty features like AI, video encoding, or mobile device integration
 - Familiarity or recommendations
+***
 
 So which cloud should you choose?  I recommend you walk into the IT department, say "Azure" and "AWS", and some eager soul will explain to you the benefits of their favorite cloud for about an hour.  I completely agree -- that's the correct cloud for you.
 
