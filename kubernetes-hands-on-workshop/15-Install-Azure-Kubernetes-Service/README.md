@@ -89,9 +89,11 @@ We need the Azure CLI to wire up the connection between Azure Kubernetes Service
 
 2. With the Azure CLI installed, run:
 
+***
    ```
    az login
    ```
+***
 
    It'll direct you to open a URL, paste in a code, and login to your Microsoft account.
 
@@ -99,9 +101,11 @@ We need the Azure CLI to wire up the connection between Azure Kubernetes Service
 
 4. Run this command to login to kubectl:
 
+***
    ```
    az aks get-credentials --resource-group kubernetes --name YOUR_CLUSTER_NAME
    ```
+***
 
    Because I named my cluster `robrich` at the top of this exercise, I'll run `az aks get-credentials --resource-group kubernetes --name robrich`
 
@@ -113,25 +117,31 @@ We need the Azure CLI to wire up the connection between Azure Kubernetes Service
 
 6. Run this command:
 
+***
    ```
    az aks show --resource-group kubernetes --name YOUR_CLUSTER_NAME --query "servicePrincipalProfile.clientId" --output tsv
    ```
+***
 
    This shows the service principal Azure created for the Kubernetes cluster.
 
 7. Run this command to get the ACR id:
 
+***
    ```
    az acr show --resource-group kubernetes --name YOUR_REGISTRY_NAME --query "id" --output tsv
    ```
+***
 
    This shows the resource id for the Azure Container Registry.  It's very long.
 
 8. Now let's use the two ids we harvested in the previous commands to assign permissions from Kubernetes to reach into the container registry.
 
+***
    ```
    az role assignment create --assignee AKS_PRINCIPAL --role Reader --scope ACR_ID
    ```
+***
 
    The `AKS_PRINCIPAL` is the result from step 6, and the `ACR_ID` is the result from step 7.
 
@@ -141,30 +151,38 @@ Switch clusters
 
 1. The Azure cli switched us from `docker-desktop` to the Azure cluster.  In a command prompt, run:
 
+***
    ```
    kubectl get all
    ```
+***
 
    Notice the `frontend` and `backend` resources we created in previous sections aren't present in this server.
 
 2. List all your contexts:
 
+***
    ```
    kubectl config get-contexts
    ```
+***
 
 3. To switch to Docker's Kubernetes cluster, run:
 
+***
    ```
    kubectl config use-context docker-desktop
    ```
+***
 
    Now run `kubectl get all` and see the content we created previously.
 
 4. Switch back to the Azure Kubernetes cluster:
 
+***
    ```
    kubectl config use-context YOUR_NAME
    ```
+***
 
    I typed `kubectl config use-context robrich`.
