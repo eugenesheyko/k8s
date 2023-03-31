@@ -86,7 +86,7 @@ Access the Services
    kubectl cluster-info
    ```
 
-   Browse to ***https://CLUSTER_URL.azmk8s.io:31891*** and to https://CLUSTER_URL.azmk8s.io/api/v1/namespaces/kube-system/services/frontend-service/proxy
+   Browse to ***https://CLUSTER_URL.azmk8s.io:31891*** and to ***https://CLUSTER_URL.azmk8s.io/api/v1/namespaces/kube-system/services/frontend-service/proxy***
 
    Still didn't work.
 
