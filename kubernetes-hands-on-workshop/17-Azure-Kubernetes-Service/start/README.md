@@ -1,7 +1,7 @@
 Azure Kubernetes Service
 ========================
 
-Let's schedule the `frontend` and `backend` Kubernetes content in Azure.  We'll mirror the deployment we did in Step 10 into a remote Kubernetes cluster, adding Ingress.
+Let's schedule the ***frontend*** and ***backend*** Kubernetes content in Azure.  We'll mirror the deployment we did in Step 10 into a remote Kubernetes cluster, adding Ingress.
 
 
 Modify the yaml files
@@ -9,13 +9,13 @@ Modify the yaml files
 
 We've tagged the image with the registry name and pushed it to Azure Container Registry, so we need to update the deployment files to note the new image name.
 
-1. Copy the `frontend` and `backend` folders from exercise 10: A bigger site into this folder.
+1. Copy the ***frontend*** and ***backend*** folders from exercise 10: A bigger site into this folder.
 
    ***Pro tip:*** Don't copy and paste the files, rather re-type them to get more experience with this content.
 
-2. Open the `backend/deployment.yaml` file in a text editor.
+2. Open the ***backend/deployment.yaml*** file in a text editor.
 
-3. Update the `image: backend:0.1` line to point to the registry:
+3. Update the ***image: backend:0.1*** line to point to the registry:
 
    ```
            image: REGISTRY_NAME.azurecr.io/backend:0.1
@@ -23,9 +23,9 @@ We've tagged the image with the registry name and pushed it to Azure Container R
 
 4. Save this file.
 
-5. Change the image name in the `frontend/deployment.yaml` file too.
+5. Change the image name in the ***frontend/deployment.yaml*** file too.
 
-6. Change the version in `frontend/deployment.yaml` to `0.1` in both places.
+6. Change the version in ***frontend/deployment.yaml*** to ***0.1*** in both places.
 
 
 Schedule all the things
@@ -66,17 +66,17 @@ Schedule all the things
 Access the Services
 -------------------
 
-1. Let's access the service using our `NodePort` trick we used locally:
+1. Let's access the service using our ***NodePort*** trick we used locally:
 
    ```
    kubectl get all
    ```
 
-   Note the `NodePort` (30,000 range) for the `frontend-service`
+   Note the ***NodePort*** (30,000 range) for the ***frontend-service`
 
-   Browse to `http://localhost:THE_PORT` substituting the `NodePort` above.
+   Browse to ***http://localhost:THE_PORT*** substituting the ***NodePort*** above.
 
-   It didn't work.  Our cluster isn't running on `localhost`, it's running in the cloud.
+   It didn't work.  Our cluster isn't running on ***localhost***, it's running in the cloud.
 
 2. Let's access the service using Azure's url.
 
@@ -86,7 +86,7 @@ Access the Services
    kubectl cluster-info
    ```
 
-   Browse to `https://CLUSTER_URL.azmk8s.io:31891` and to https://CLUSTER_URL.azmk8s.io/api/v1/namespaces/kube-system/services/frontend-service/proxy`
+   Browse to ***https://CLUSTER_URL.azmk8s.io:31891*** and to https://CLUSTER_URL.azmk8s.io/api/v1/namespaces/kube-system/services/frontend-service/proxy
 
    Still didn't work.
 
