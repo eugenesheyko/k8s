@@ -100,9 +100,9 @@ Ingress routes traffic through the Azure load balancer associated with the Azure
 
    In the Azure portal, choose the Azure Kubernetes Service.
 
-   From the Overview tab, find the `HTTP application routing domain` in the top header section.
+   From the Overview tab, find the ***HTTP application routing domain*** in the top header section.
 
-2. Create a new file in the frontend folder named `ingress.yaml`.
+2. Create a new file in the frontend folder named ***ingress.yaml***.
 
 3. Add this content:
 
