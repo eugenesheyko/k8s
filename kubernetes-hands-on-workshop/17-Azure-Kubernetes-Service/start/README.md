@@ -124,7 +124,7 @@ Ingress routes traffic through the Azure load balancer associated with the Azure
            path: /
    ```
 
-   This sets up DNS rules to get traffic from the internet on port 80 into the service named `frontend` on port `3000`.  One could also route https traffic, specifying a certificate stored as a Kubernetes secret, though this is beyond the scope of this course.
+   This sets up DNS rules to get traffic from the internet on port 80 into the service named ***frontend*** on port ***3000***.  One could also route https traffic, specifying a certificate stored as a Kubernetes secret, though this is beyond the scope of this course.
 
    The annotation `kubernetes.io/ingress.class: addon-http-application-routing` is required by Azure.  You may need different attributes for different cloud providers.  See https://docs.microsoft.com/en-us/azure/aks/http-application-routing and https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/annotations.md
 
