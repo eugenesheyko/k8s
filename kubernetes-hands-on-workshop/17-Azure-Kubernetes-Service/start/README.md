@@ -94,7 +94,7 @@ Access the Services
 Ingress
 -------
 
-Ingress routes traffic through the Azure load balancer associated with the Azure Kubernetes Cluster into our services.  Unlike services of type `LoadBalancer`, an `Ingress` can route traffic to many services based on a unique subdomain or url path.
+Ingress routes traffic through the Azure load balancer associated with the Azure Kubernetes Cluster into our services.  Unlike services of type ***LoadBalancer***, an ***Ingress*** can route traffic to many services based on a unique subdomain or url path.
 
 1. Let's locate the domain Azure assigned to the cluster.
 
