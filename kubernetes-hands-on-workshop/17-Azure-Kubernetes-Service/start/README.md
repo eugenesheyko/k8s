@@ -146,7 +146,7 @@ Ingress routes traffic through the Azure load balancer associated with the Azure
    kubectl get all,ing
    ```
 
-6. It may take a bit for the DNS to propagate so the `frontend` subdomain exists.
+6. It may take a bit for the DNS to propagate so the ***frontend*** subdomain exists.
 
    Check the logs to see how Kubernetes updated DNS by running this command:
 
@@ -154,7 +154,7 @@ Ingress routes traffic through the Azure load balancer associated with the Azure
    kubectl logs deploy/addon-http-application-routing-external-dns -n kube-system
    ```
 
-   Note that unlike the things we've built in the `default` namespace, the dns pod is in the `kube-system` namespace.
+   Note that unlike the things we've built in the ***default*** namespace, the dns pod is in the ***kube-system*** namespace.
 
    We can look at all namespaces with this command:
 
