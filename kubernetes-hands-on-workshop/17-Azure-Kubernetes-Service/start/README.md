@@ -164,6 +164,6 @@ Ingress routes traffic through the Azure load balancer associated with the Azure
 
 7. Now let's try it out.  Browse to the URL you formed above: `http://frontend.YOUR_HTTP_ROUTING_DOMAIN_HERE`, adding in your domain from the Azure portal.
 
-   If you get an error like `ERR_NAME_NOT_RESOLVED`, wait a few minutes and try again.  DNS changes can take a while to propagate to all the DNS servers involved.
+   If you get an error like ***ERR_NAME_NOT_RESOLVED***, wait a few minutes and try again.  DNS changes can take a while to propagate to all the DNS servers involved.
 
-   If you get a different error like a `404`, check if all the pods, services, and ingress are running.
+   If you get a different error like a ***404***, check if all the pods, services, and ingress are running.
