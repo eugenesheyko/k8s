@@ -162,7 +162,7 @@ Ingress routes traffic through the Azure load balancer associated with the Azure
    kubectl get all --all-namespaces
    ```
 
-7. Now let's try it out.  Browse to the URL you formed above: `http://frontend.YOUR_HTTP_ROUTING_DOMAIN_HERE`, adding in your domain from the Azure portal.
+7. Now let's try it out.  Browse to the URL you formed above: ***http://frontend.YOUR_HTTP_ROUTING_DOMAIN_HERE***, adding in your domain from the Azure portal.
 
    If you get an error like ***ERR_NAME_NOT_RESOLVED***, wait a few minutes and try again.  DNS changes can take a while to propagate to all the DNS servers involved.
 
