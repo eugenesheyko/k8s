@@ -76,7 +76,7 @@ Access the Services
 
    Browse to ***http://localhost:THE_PORT*** substituting the ***NodePort*** above.
 
-   It didn't work.  Our cluster isn't running on ***localhost***, it's running in the cloud.
+   It didn't work. Our cluster isn't running on ***localhost***, it's running in the cloud.
 
 2. Let's access the service using Azure's url.
 
