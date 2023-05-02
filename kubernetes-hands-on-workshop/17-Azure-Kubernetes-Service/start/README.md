@@ -140,7 +140,7 @@ Ingress routes traffic through the Azure load balancer associated with the Azure
    kubectl get all
    ```
 
-   Ingress details are not in the list of "all" resources.  To show "everything and ingress", we'll need a new command:
+   Ingress details are not in the list of "all" resources. To show "everything and ingress", we'll need a new command:
 
    ```
    kubectl get all,ing
