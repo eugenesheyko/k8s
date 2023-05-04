@@ -15,7 +15,7 @@ We've got the cluster running in Kubernetes. We're accepting traffic. The site i
 
 5. Use `kubectl` to apply the new `frontend/deployment.yaml` file into Azure.
 
-6. Use `kubectl` to get all the things and see the new pods spin up and the old pods terminate.
+6. Use ***kubectl*** to get all the things and see the new pods spin up and the old pods terminate.
 
 7. Refresh the website and see the new content.
 
