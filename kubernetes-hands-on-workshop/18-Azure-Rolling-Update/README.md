@@ -5,15 +5,15 @@ We've got the cluster running in Kubernetes. We're accepting traffic. The site i
 
 **Note:** Look to exercise 11: Rolling Update for clues to complete each task.
 
-1. If necessary, change the code and rebuild the `frontend:0.2` image.
+1. If necessary, change the code and rebuild the ***frontend:0.2*** image.
 
-2. Tag the image to include the Azure Container Registry url, including the `latest` tag.
+2. Tag the image to include the Azure Container Registry url, including the ***latest*** tag.
 
-3. Push both the `frontend:0.2` and `frontend:latest` images to Azure Container Registry.
+3. Push both the ***frontend:0.2*** and ***frontend:latest*** images to Azure Container Registry.
 
-4. Modify `frontend/deployment.yaml` to update the image version in both places.
+4. Modify ***frontend/deployment.yaml*** to update the image version in both places.
 
-5. Use `kubectl` to apply the new `frontend/deployment.yaml` file into Azure.
+5. Use ***kubectl*** to apply the new ***frontend/deployment.yaml*** file into Azure.
 
 6. Use ***kubectl*** to get all the things and see the new pods spin up and the old pods terminate.
 
