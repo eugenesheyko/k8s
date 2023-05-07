@@ -4,7 +4,7 @@ Bonus tasks
 Docker Hub
 ----------
 
-We've pushed the images both to Azure Container Registry and to Docker Hub.  Note that the only difference in image names is locally the image is `frontend:0.1`, on Docker Hub, it's `USERNAME/frontend:0.1` and on Azure Container Registry the image is named `REGISTRY.azcr.io/frontend:0.1`.
+We've pushed the images both to Azure Container Registry and to Docker Hub. Note that the only difference in image names is locally the image is `frontend:0.1`, on Docker Hub, it's `USERNAME/frontend:0.1` and on Azure Container Registry the image is named `REGISTRY.azcr.io/frontend:0.1`.
 
 Your task: modify the deployment to pull the images from Docker Hub instead of from the private registry.
 
