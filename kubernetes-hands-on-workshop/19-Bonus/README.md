@@ -8,7 +8,6 @@ We've pushed the images both to Azure Container Registry and to Docker Hub. Note
 
 Your task: modify the deployment to pull the images from Docker Hub instead of from the private registry.
 
-
 HTTPS
 -----
 
