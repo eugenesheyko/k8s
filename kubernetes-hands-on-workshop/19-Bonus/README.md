@@ -23,7 +23,6 @@ Here are some tutorials on autoscaling Kubernetes
 - https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
 - https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
 
-
 Helm
 ----
 
