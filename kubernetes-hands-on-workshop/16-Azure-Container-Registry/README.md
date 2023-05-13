@@ -3,7 +3,6 @@ Azure Container Registry
 
 Like Docker Hub, Azure Container Registry lets us publish docker images. Unlike Docker Hub, the images are private.
 
-
 Pushing images to Azure Container Registry
 ------------------------------------------
 
