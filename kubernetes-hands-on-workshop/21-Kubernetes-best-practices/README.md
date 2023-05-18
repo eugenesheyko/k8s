@@ -11,7 +11,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Use a managed data store: Using a database-as-a-service product both eliminates stateful containers and it's one less thing to manage. For example, Azure SQL Database and Amazon RDS.
 
-- Rebuild and deploy production images frequently: A docker image is ephemeral and deterministic -- it doesn't change.  Your dependencies evolve over time.  Rebuild production images frequently to get OS patches and dependency updates. Orchestration engines can pick up the `latest` label change automatically, rolling the the updated image into production with ease.
+- Rebuild and deploy production images frequently: A docker image is ephemeral and deterministic -- it doesn't change. Your dependencies evolve over time. Rebuild production images frequently to get OS patches and dependency updates. Orchestration engines can pick up the `latest` label change automatically, rolling the the updated image into production with ease.
 
 - [Store secrets carefully](https://robrich.org/slides/docker-secrets/#/): Where you choose to store secrets depends a lot on what you trust and how much complexity and control you want around secrets.
 
