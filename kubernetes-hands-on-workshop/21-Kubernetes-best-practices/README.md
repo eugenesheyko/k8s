@@ -25,7 +25,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
   If possible, don't even install the Kubernetes dashboard.
 
-- Version control your yaml files: Best is to version the yaml together with the application source.  If you need to deploy an old version of the app, you'll have the old version of the deploy script.
+- Version control your yaml files: Best is to version the yaml together with the application source. If you need to deploy an old version of the app, you'll have the old version of the deploy script.
 
   If you opt instead to hide Kubernetes as an implementation detail, ensure your yaml files are still versioned and discoverable. For example, tag the repository on each deployment or merge in a label with the git hash during deploy: `cat file.yaml | sed /GIT_HASH/$GITHASH/ | apply -f -`
 
