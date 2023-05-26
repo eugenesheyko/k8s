@@ -31,7 +31,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Leverage cache layers: In the docker file, first copy the app's manifest (`package.json`, `.csproj`, etc), then run the package installer (`npm install`, `pip install`, `nuget restore`, `gem install`, etc), then copy in the rest of the content. The app's content probably changes frequently, but the package manifest doesn't.  With this approach, you're more likely to get a cache hit for the expensive package download during development and on the CI server.
 
-- Use ***.dockerignore***: Using the exact same "one line per entry" and "wildcard glob" syntax as ***.gitignore*** and `.npmignore`, you can use `.dockerignore` to prune content from the `ADD . /path` and `COPY . /path` commands in your Dockerfile.
+- Use ***.dockerignore***: Using the exact same "one line per entry" and "wildcard glob" syntax as ***.gitignore*** and ***.npmignore***, you can use `.dockerignore` to prune content from the `ADD . /path` and `COPY . /path` commands in your Dockerfile.
 
 - Use Ingress over LoadBalancer when possible: Ingress can route based on hostname or path, but can only route traffic from port 80 and 443 without a custom Ingress Controller.  Services of type LoadBalancer may create a unique LoadBalancer on your cloud per service. This can get expensive.
 
