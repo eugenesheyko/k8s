@@ -29,7 +29,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
   If you opt instead to hide Kubernetes as an implementation detail, ensure your yaml files are still versioned and discoverable. For example, tag the repository on each deployment or merge in a label with the git hash during deploy: ***cat file.yaml | sed /GIT_HASH/$GITHASH/ | apply -f -***
 
-- Leverage cache layers: In the docker file, first copy the app's manifest (`package.json`, `.csproj`, etc), then run the package installer (`npm install`, `pip install`, `nuget restore`, `gem install`, etc), then copy in the rest of the content. The app's content probably changes frequently, but the package manifest doesn't.  With this approach, you're more likely to get a cache hit for the expensive package download during development and on the CI server.
+- Leverage cache layers: In the docker file, first copy the app's manifest (***package.json***, `.csproj`, etc), then run the package installer (`npm install`, `pip install`, `nuget restore`, `gem install`, etc), then copy in the rest of the content. The app's content probably changes frequently, but the package manifest doesn't.  With this approach, you're more likely to get a cache hit for the expensive package download during development and on the CI server.
 
 - Use ***.dockerignore***: Using the exact same "one line per entry" and "wildcard glob" syntax as ***.gitignore*** and ***.npmignore***, you can use ***.dockerignore*** to prune content from the ***ADD . /path*** and ***COPY . /path*** commands in your Dockerfile.
 
