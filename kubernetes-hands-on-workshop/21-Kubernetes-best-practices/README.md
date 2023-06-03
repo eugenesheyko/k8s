@@ -41,7 +41,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Use a cloud-hosted Kubernetes service: Azure, Amazon, and Google all have Kubernetes clusters available at the point of a button.  Many private clouds have this service too.  `kubeadm` is hard.  If you must manage your own cluster, you may think about Docker Swarm as an easier alternative.
 
-- `kubectl get all` doesn't return every-every thing, it only returns things that won't lose data if they're deleted.  Include other things by running `kubectl get all,ing,sec` etc.  See https://github.com/kubernetes/community/blob/master/contributors/devel/kubectl-conventions.md#rules-for-extending-special-resource-alias---all
+- ***kubectl get all*** doesn't return every-every thing, it only returns things that won't lose data if they're deleted.  Include other things by running `kubectl get all,ing,sec` etc.  See https://github.com/kubernetes/community/blob/master/contributors/devel/kubectl-conventions.md#rules-for-extending-special-resource-alias---all
 
 - Use role based access control (RBAC):  All 3 cloud providers support this "service account" or "app authentication" mechanism, and it's much more durable than usernames and passwords which need to be themselves secured carefully.  By contrast, service accounts have no password; they're managed solely by the cloud provider.
 
