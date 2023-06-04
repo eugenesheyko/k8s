@@ -49,7 +49,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Namespaces:  You can scope things by namespace, though you'll now need to add the `--namespace=` to any kubectl command.
 
-- Namespaces aren't a security boundary, they're an organizational boundary.  By default, any pod can call any other pod running in the cluster.
+- Namespaces aren't a security boundary, they're an organizational boundary. By default, any pod can call any other pod running in the cluster.
 
 - The `kubectl` cheat sheet: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
