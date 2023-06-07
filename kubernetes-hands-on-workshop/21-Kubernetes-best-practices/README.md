@@ -33,7 +33,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Use ***.dockerignore***: Using the exact same "one line per entry" and "wildcard glob" syntax as ***.gitignore*** and ***.npmignore***, you can use ***.dockerignore*** to prune content from the ***ADD . /path*** and ***COPY . /path*** commands in your Dockerfile.
 
-- Use Ingress over LoadBalancer when possible: Ingress can route based on hostname or path, but can only route traffic from port 80 and 443 without a custom Ingress Controller.  Services of type LoadBalancer may create a unique LoadBalancer on your cloud per service. This can get expensive.
+- Use Ingress over LoadBalancer when possible: Ingress can route based on hostname or path, but can only route traffic from port 80 and 443 without a custom Ingress Controller. Services of type LoadBalancer may create a unique LoadBalancer on your cloud per service. This can get expensive.
 
 - Deploy the service before the deployment: Services create DNS entries and environment variables in the cluster.  If you schedule the deployment first, you may have a container start without the necessary environment variables or they may not be able to resolve the hostnames of dependent services.
 
