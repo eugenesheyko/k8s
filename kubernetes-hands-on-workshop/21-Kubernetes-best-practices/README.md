@@ -35,7 +35,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Use Ingress over LoadBalancer when possible: Ingress can route based on hostname or path, but can only route traffic from port 80 and 443 without a custom Ingress Controller. Services of type LoadBalancer may create a unique LoadBalancer on your cloud per service. This can get expensive.
 
-- Deploy the service before the deployment: Services create DNS entries and environment variables in the cluster.  If you schedule the deployment first, you may have a container start without the necessary environment variables or they may not be able to resolve the hostnames of dependent services.
+- Deploy the service before the deployment: Services create DNS entries and environment variables in the cluster. If you schedule the deployment first, you may have a container start without the necessary environment variables or they may not be able to resolve the hostnames of dependent services.
 
 - Deployments should reference versioned images: K8s's default pull policy is ***IfNotPresent*** for versioned images, and `Always` for `latest` because `latest` isn't durable.  Instead document when you bumped the version of the content by also versioning the image and the deployment.
 
