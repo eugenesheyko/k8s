@@ -37,7 +37,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Deploy the service before the deployment: Services create DNS entries and environment variables in the cluster. If you schedule the deployment first, you may have a container start without the necessary environment variables or they may not be able to resolve the hostnames of dependent services.
 
-- Deployments should reference versioned images: K8s's default pull policy is ***IfNotPresent*** for versioned images, and ***Always*** for ***latest*** because `latest` isn't durable.  Instead document when you bumped the version of the content by also versioning the image and the deployment.
+- Deployments should reference versioned images: K8s's default pull policy is ***IfNotPresent*** for versioned images, and ***Always*** for ***latest*** because ***latest*** isn't durable.  Instead document when you bumped the version of the content by also versioning the image and the deployment.
 
 - Use a cloud-hosted Kubernetes service: Azure, Amazon, and Google all have Kubernetes clusters available at the point of a button.  Many private clouds have this service too.  `kubeadm` is hard.  If you must manage your own cluster, you may think about Docker Swarm as an easier alternative.
 
