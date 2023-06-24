@@ -39,7 +39,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Deployments should reference versioned images: K8s's default pull policy is ***IfNotPresent*** for versioned images, and ***Always*** for ***latest*** because ***latest*** isn't durable. Instead document when you bumped the version of the content by also versioning the image and the deployment.
 
-- Use a cloud-hosted Kubernetes service: Azure, Amazon, and Google all have Kubernetes clusters available at the point of a button. Many private clouds have this service too. ***kubeadm*** is hard.  If you must manage your own cluster, you may think about Docker Swarm as an easier alternative.
+- Use a cloud-hosted Kubernetes service: Azure, Amazon, and Google all have Kubernetes clusters available at the point of a button. Many private clouds have this service too. ***kubeadm*** is hard. If you must manage your own cluster, you may think about Docker Swarm as an easier alternative.
 
 - ***kubectl get all*** doesn't return every-every thing, it only returns things that won't lose data if they're deleted.  Include other things by running ***kubectl get all,ing,sec*** etc.  See https://github.com/kubernetes/community/blob/master/contributors/devel/kubectl-conventions.md#rules-for-extending-special-resource-alias---all
 
