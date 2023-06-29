@@ -45,7 +45,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Use role based access control (RBAC): All 3 cloud providers support this "service account" or "app authentication" mechanism, and it's much more durable than usernames and passwords which need to be themselves secured carefully. By contrast, service accounts have no password; they're managed solely by the cloud provider.
 
-- Labels: Gratuitously add labels to anything. You can limit the query to `kubectl get all --selector=app=frontend`.
+- Labels: Gratuitously add labels to anything. You can limit the query to ***kubectl get all --selector=app=frontend***.
 
 - Namespaces: You can scope things by namespace, though you'll now need to add the `--namespace=` to any kubectl command.
 
