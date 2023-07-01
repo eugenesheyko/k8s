@@ -51,7 +51,7 @@ Here's things I've found that make Docker and Kubernetes most effective:
 
 - Namespaces aren't a security boundary, they're an organizational boundary. By default, any pod can call any other pod running in the cluster.
 
-- The `kubectl` cheat sheet: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+- The ***kubectl*** cheat sheet: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 
 Other Best Practices
