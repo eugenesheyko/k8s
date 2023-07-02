@@ -25,7 +25,7 @@ Step 1: Create the app
 
 3. Paste into a new file.
 
-4. Save the file in this `start` folder, and name the file `server.js`.
+4. Save the file in this ***start*** folder, and name the file `server.js`.
 
 5. Modify this line: `server.listen(port, hostname, () => {` to this: `server.listen(port, () => {` (e.g. remove `hostname,`.)
 
