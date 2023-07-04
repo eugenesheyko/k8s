@@ -7,7 +7,7 @@ We're going to build our first container as a Linux workload.
 Step 0: Clone this repository
 -----------------------------
 
-Head to https://github.com/robrich/kubernetes-hands-on-workshop, click on the green "Code" button, and choose to clone or download this repository content. Save the files in any convenient folder on your machine.  Consider putting them in a path without spaces because using paths with spaces requires putting quotes around some commands.
+Head to https://github.com/robrich/kubernetes-hands-on-workshop, click on the green "Code" button, and choose to clone or download this repository content. Save the files in any convenient folder on your machine. Consider putting them in a path without spaces because using paths with spaces requires putting quotes around some commands.
 
 
 Step 0: Switch to Linux containers
