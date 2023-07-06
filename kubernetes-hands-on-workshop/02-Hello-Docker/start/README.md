@@ -13,7 +13,7 @@ Head to https://github.com/robrich/kubernetes-hands-on-workshop, click on the gr
 Step 0: Switch to Linux containers
 ----------------------------------
 
-1. Running on Windows?  Right-click on the docker system tray icon, and choose "Switch to Linux Containers".  If it says "Switch to Windows containers" you don't need to do anything, you're already there.
+1. Running on Windows? Right-click on the docker system tray icon, and choose "Switch to Linux Containers".  If it says "Switch to Windows containers" you don't need to do anything, you're already there.
 
 
 Step 1: Create the app
