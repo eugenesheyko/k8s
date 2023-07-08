@@ -27,7 +27,7 @@ Step 1: Create the app
 
 4. Save the file in this ***start*** folder, and name the file ***server.js***.
 
-5. Modify this line: `server.listen(port, hostname, () => {` to this: `server.listen(port, () => {` (e.g. remove `hostname,`.)
+5. Modify this line: ***server.listen(port, hostname, () => {*** to this: `server.listen(port, () => {` (e.g. remove `hostname,`.)
 
 
 Step 2: Craft the Dockerfile
