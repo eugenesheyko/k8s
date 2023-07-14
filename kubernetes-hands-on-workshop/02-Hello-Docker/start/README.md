@@ -41,7 +41,7 @@ Step 2: Craft the Dockerfile
    FROM node:alpine
    ```
 
-   This says "start with the [node](https://hub.docker.com/_/node/) base-image, and use the alpine flavor of it."  The alpine Linux distribution is known for being tiny.
+   This says "start with the [node](https://hub.docker.com/_/node/) base-image, and use the alpine flavor of it." The alpine Linux distribution is known for being tiny.
 
    **Pro tip:** Rather than copying and pasting the text, type each step instead.  You'll become much more familiar with the new technology this way.
 
