@@ -33,7 +33,7 @@ Step 1: Create the app
 Step 2: Craft the Dockerfile
 ----------------------------
 
-1. Create a new file in this ***start*** folder named `Dockerfile` -- note it has no file extension.
+1. Create a new file in this ***start*** folder named ***Dockerfile*** -- note it has no file extension.
 
 2. Write this line:
 
