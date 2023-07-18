@@ -51,7 +51,7 @@ Step 2: Craft the Dockerfile
    WORKDIR /app
    ```
 
-   This says "I want my image content to be in the `/app` directory."  It will create the directory if it doesn't exist.
+   This says "I want my image content to be in the ***/app*** directory."  It will create the directory if it doesn't exist.
 
    There's nothing magical about the `/app` directory.  You could call it `/foo/bar/baz` and this example would work just fine.
 
