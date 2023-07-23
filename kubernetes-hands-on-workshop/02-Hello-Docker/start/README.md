@@ -61,7 +61,7 @@ Step 2: Craft the Dockerfile
    COPY . /app
    ```
 
-   This says "Copy all the files in my current folder on my drive into the `/app` directory in the image."
+   This says "Copy all the files in my current folder on my drive into the ***/app*** directory in the image."
 
 4. Another line:
 
