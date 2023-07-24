@@ -77,7 +77,7 @@ Step 2: Craft the Dockerfile
    CMD ["node", "server"]
    ```
 
-   This says "The command line to run when starting the container is `node server`. In other words, Start Node with the `server.js` file."
+   This says "The command line to run when starting the container is ***node server***. In other words, Start Node with the `server.js` file."
 
    Note that all the other lines get run as we build the image.  Only this line gets run as the container starts.
 
