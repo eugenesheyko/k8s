@@ -79,7 +79,7 @@ Step 2: Craft the Dockerfile
 
    This says "The command line to run when starting the container is ***node server***. In other words, Start Node with the ***server.js*** file."
 
-   Note that all the other lines get run as we build the image.  Only this line gets run as the container starts.
+   Note that all the other lines get run as we build the image. Only this line gets run as the container starts.
 
 6. Save the Dockerfile.  Make sure it's `Dockerfile` without an extension, not ~~Dockerfile.txt~~.
 
