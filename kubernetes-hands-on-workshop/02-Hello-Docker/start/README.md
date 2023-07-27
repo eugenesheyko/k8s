@@ -81,7 +81,7 @@ Step 2: Craft the Dockerfile
 
    Note that all the other lines get run as we build the image. Only this line gets run as the container starts.
 
-6. Save the Dockerfile.  Make sure it's `Dockerfile` without an extension, not ~~Dockerfile.txt~~.
+6. Save the Dockerfile. Make sure it's ***Dockerfile*** without an extension, not ~~Dockerfile.txt~~.
 
 
 Step 3: Build the Dockerfile into an image
