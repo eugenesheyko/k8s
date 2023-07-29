@@ -87,7 +87,7 @@ Step 2: Craft the Dockerfile
 Step 3: Build the Dockerfile into an image
 ------------------------------------------
 
-1. From a terminal in the folder with the ***Dockerfile*** and `server.js` file, run this command from a command prompt:
+1. From a terminal in the folder with the ***Dockerfile*** and ***server.js*** file, run this command from a command prompt:
 
    ```
    docker build --tag hellonode:0.1 .
