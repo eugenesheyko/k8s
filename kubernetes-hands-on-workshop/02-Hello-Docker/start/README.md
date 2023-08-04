@@ -128,7 +128,7 @@ As you work through this section, if you find it doesn't work, look for debuggin
    docker container list
    ```
 
-   Is it not running?  See step 5.
+   Is it not running? See step 5.
 
 **Note: you didn't install node!**
 
