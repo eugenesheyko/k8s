@@ -138,7 +138,7 @@ Step 5: Debugging a failed container
 
 Did your container not start up correctly in Step 4?  Let's look for clues to what happened.
 
-1. Run `docker container list --all`.  This will show both running and stopped containers.
+1. Run ***docker container list --all***.  This will show both running and stopped containers.
 
 2. Note the `CONTAINER ID` and/or the `NAMES` of the failed container.  We'll need it next.
 
