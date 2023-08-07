@@ -140,7 +140,7 @@ Did your container not start up correctly in Step 4?  Let's look for clues to wh
 
 1. Run ***docker container list --all***.  This will show both running and stopped containers.
 
-2. Note the `CONTAINER ID` and/or the `NAMES` of the failed container.  We'll need it next.
+2. Note the ***CONTAINER ID*** and/or the `NAMES` of the failed container.  We'll need it next.
 
 3. Run `docker container logs ...`, replacing `...` with the first few characters of the `CONTAINER ID` or the `NAMES` you found above.  This shows the console output from the failed container.  Did this give you clues on how to fix it?
 
