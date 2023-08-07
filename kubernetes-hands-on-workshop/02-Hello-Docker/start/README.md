@@ -118,7 +118,7 @@ As you work through this section, if you find it doesn't work, look for debuggin
    docker run -p 3000:3000 -d hellonode:0.1
    ```
 
-   This says "Run the image named ***hellonode***, version ***0.1*** as a container, and NAT the host's port 3000 to port 3000 in the container.  ***-d*** says "run in daemon mode" or "run in the background."
+   This says "Run the image named ***hellonode***, version ***0.1*** as a container, and NAT the host's port 3000 to port 3000 in the container. ***-d*** says "run in daemon mode" or "run in the background."
 
 2. Open a browser to [http://localhost:3000](http://localhost:3000).  Success!
 
