@@ -136,7 +136,7 @@ As you work through this section, if you find it doesn't work, look for debuggin
 Step 5: Debugging a failed container
 ------------------------------------
 
-Did your container not start up correctly in Step 4?  Let's look for clues to what happened.
+Did your container not start up correctly in Step 4? Let's look for clues to what happened.
 
 1. Run ***docker container list --all***.  This will show both running and stopped containers.
 
