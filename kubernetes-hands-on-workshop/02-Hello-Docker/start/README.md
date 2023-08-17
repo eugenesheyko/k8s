@@ -142,7 +142,7 @@ Did your container not start up correctly in Step 4? Let's look for clues to wha
 
 2. Note the ***CONTAINER ID*** and/or the ***NAMES*** of the failed container. We'll need it next.
 
-3. Run ***docker container logs ...***, replacing ***...*** with the first few characters of the ***CONTAINER ID*** or the `NAMES` you found above.  This shows the console output from the failed container.  Did this give you clues on how to fix it?
+3. Run ***docker container logs ...***, replacing ***...*** with the first few characters of the ***CONTAINER ID*** or the ***NAMES*** you found above.  This shows the console output from the failed container.  Did this give you clues on how to fix it?
 
 4. Remove the stopped container using Step 6 below, then return to Step 3 to rebuild the image and rerun the container.
 
