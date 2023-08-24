@@ -150,7 +150,7 @@ Did your container not start up correctly in Step 4? Let's look for clues to wha
 
 6. When you're ready, use CNTRL-C to break out of the console, and get back to the host's terminal.
 
-Is port 3000 already in use on your machine? Change the host port to another port like 3001 with this command ***docker run -p 3001:3000 hellonode:0.1***, then browse to `localhost:3001`.  Notice that inside the container, the server is still listening on port 3000.
+Is port 3000 already in use on your machine? Change the host port to another port like 3001 with this command ***docker run -p 3001:3000 hellonode:0.1***, then browse to ***localhost:3001***.  Notice that inside the container, the server is still listening on port 3000.
 
 
 Step 6: Stop and Remove the container
