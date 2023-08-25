@@ -156,7 +156,7 @@ Is port 3000 already in use on your machine? Change the host port to another por
 Step 6: Stop and Remove the container
 -------------------------------------
 
-1. Run `docker container list` to see running containers.  Note the `CONTAINER ID` and/or the `NAMES` of the running container.
+1. Run ***docker container list*** to see running containers.  Note the `CONTAINER ID` and/or the `NAMES` of the running container.
 
 2. Run `docker container stop ...` replacing `...` with the first few characters of the `CONTAINER ID` or the `NAMES` you found above.  This stops the container.
 
