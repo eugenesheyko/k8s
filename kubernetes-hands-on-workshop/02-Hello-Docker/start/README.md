@@ -162,7 +162,7 @@ Step 6: Stop and Remove the container
 
 3. Run ***docker container list*** and note the container is now stopped.
 
-4. Run `docker container list --all` to see all containers -- both stopped and started.
+4. Run ***docker container list --all*** to see all containers -- both stopped and started.
 
 5. Run `docker container rm ...` replacing `...` with the first few characters of the `CONTAINER ID` or the `NAMES` you found above.  This removes the container.
 
