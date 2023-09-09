@@ -168,7 +168,7 @@ Step 6: Stop and Remove the container
 
    The read-write layer for this container is now gone. Good thing we didn't save anything there.
 
-6. Run `docker image list`.  The image is still there, only the container we created by running the image is gone.
+6. Run ***docker image list***. The image is still there, only the container we created by running the image is gone.
 
 
 Step 7: Change the code, rebuild, rerun
