@@ -178,7 +178,7 @@ Step 7: Change the code, rebuild, rerun
 
 2. Run a ***docker build*** command, changing the version label to ***0.2***.
 
-3. Run a `docker run` command to start the container.
+3. Run a ***docker run*** command to start the container.
 
 4. Browse to [http://localhost:3000](http://localhost:3000) to see the changes.
 
