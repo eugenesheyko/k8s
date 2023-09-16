@@ -182,6 +182,6 @@ Step 7: Change the code, rebuild, rerun
 
 4. Browse to [http://localhost:3000](http://localhost:3000) to see the changes.
 
-5. Run a `docker container stop` command to stop the container.
+5. Run a ***docker container stop*** command to stop the container.
 
 6. Run a `docker container rm` command to remove the container.
