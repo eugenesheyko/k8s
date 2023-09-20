@@ -1,7 +1,7 @@
 Multi-stage Build
 =================
 
-In Node, we deploy our source. In .NET Core, we build first, and deploy built artifacts.  A multi-stage build allows us to deploy smaller images because we're not deploying build tools or source code.
+In Node, we deploy our source. In .NET Core, we build first, and deploy built artifacts. A multi-stage build allows us to deploy smaller images because we're not deploying build tools or source code.
 
 
 Step 1: Build the Dockerfile
