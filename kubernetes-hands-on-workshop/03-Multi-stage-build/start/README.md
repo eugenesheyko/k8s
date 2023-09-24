@@ -23,7 +23,7 @@ Step 1: Build the Dockerfile
    WORKDIR /src
    ```
 
-   This says "I want my process in the container to start from the `/src` directory."  It will create the directory if it doesn't exist.
+   This says "I want my process in the container to start from the ***/src*** directory."  It will create the directory if it doesn't exist.
 
 4. Next line:
 
