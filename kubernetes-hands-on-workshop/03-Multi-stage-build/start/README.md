@@ -41,7 +41,7 @@ Step 1: Build the Dockerfile
 
    This downloads libraries from the NuGet package repository.
 
-   We copy only the project's manifest file first, then restore dependencies so we can benefit from Docker's layer caching.  When we change our app's source code and rebuild the image, we don't need to re-download the libraries if the source manifest didn't change.
+   We copy only the project's manifest file first, then restore dependencies so we can benefit from Docker's layer caching. When we change our app's source code and rebuild the image, we don't need to re-download the libraries if the source manifest didn't change.
 
 6. Next section:
 
