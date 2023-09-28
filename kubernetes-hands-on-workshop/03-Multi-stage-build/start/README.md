@@ -51,7 +51,7 @@ Step 1: Build the Dockerfile
 
    This copies all the rest of the content from the directory where we'll run the build command on our machine into the current directory in the image.
 
-7. Open the `.dockerignore` text file inside the `src` directory.  The syntax is identical to a `.gitignore` file.  This file tells the `COPY` command which things it should not copy.
+7. Open the ***.dockerignore*** text file inside the ***src*** directory. The syntax is identical to a ***.gitignore*** file. This file tells the ***COPY*** command which things it should not copy.
 
    If you don't have a `.dockerignore` file, it'll use the `.gitignore` file instead.  If it doesn't find either, it'll copy everything.
 
