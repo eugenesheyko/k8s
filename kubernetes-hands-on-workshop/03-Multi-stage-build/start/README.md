@@ -31,7 +31,7 @@ Step 1: Build the Dockerfile
    COPY MultiStage.csproj .
    ```
 
-   This says "copy the dependencies manifest file from my machine to the current directory in the image." In Node, this is the project.json file.  In Python this is the requirements.txt file.
+   This says "copy the dependencies manifest file from my machine to the current directory in the image." In Node, this is the project.json file. In Python this is the requirements.txt file.
 
 5. Add this line:
 
