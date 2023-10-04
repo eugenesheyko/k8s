@@ -53,7 +53,7 @@ Step 1: Build the Dockerfile
 
 7. Open the ***.dockerignore*** text file inside the ***src*** directory. The syntax is identical to a ***.gitignore*** file. This file tells the ***COPY*** command which things it should not copy.
 
-   If you don't have a ***.dockerignore*** file, it'll use the `.gitignore` file instead.  If it doesn't find either, it'll copy everything.
+   If you don't have a ***.dockerignore*** file, it'll use the ***.gitignore*** file instead. If it doesn't find either, it'll copy everything.
 
    In this case, we've chosen to not copy in all the user-specific files, configuration files for various editors, and other files we don't need.
 
