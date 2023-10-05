@@ -57,7 +57,7 @@ Step 1: Build the Dockerfile
 
    In this case, we've chosen to not copy in all the user-specific files, configuration files for various editors, and other files we don't need.
 
-8. Back in the `Dockerfile` let's add these two lines:
+8. Back in the ***Dockerfile*** let's add these two lines:
 
    ```
    RUN dotnet build MultiStage.csproj -c Release
