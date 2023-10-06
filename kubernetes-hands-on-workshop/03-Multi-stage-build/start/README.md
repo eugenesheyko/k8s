@@ -64,7 +64,7 @@ Step 1: Build the Dockerfile
    RUN dotnet publish MultiStage.csproj -c Release -o /app
    ```
 
-   These commands tell .NET Core to build the application, and to publish the application to the `/app` directory, creating it if it doesn't exist.
+   These commands tell .NET Core to build the application, and to publish the application to the ***/app*** directory, creating it if it doesn't exist.
 
 9. Add this line:
 
