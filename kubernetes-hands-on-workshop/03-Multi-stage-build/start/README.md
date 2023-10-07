@@ -72,7 +72,7 @@ Step 1: Build the Dockerfile
    WORKDIR /app
    ```
 
-   We've seen this line a few times before.  Roughly it says "mkdir -p /app && cd /app"
+   We've seen this line a few times before. Roughly it says "mkdir -p /app && cd /app"
 
 10. Add these lines:
 
