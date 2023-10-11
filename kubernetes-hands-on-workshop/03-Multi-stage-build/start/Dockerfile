@@ -1,3 +1,10 @@
+# Use an appropriate base image with .NET already installed
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
+
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
 WORKDIR /src
 COPY /src/MultiStage.csproj .
@@ -6,6 +13,7 @@ COPY . .
 
 RUN dotnet build MultiStage.csproj -c Release
 RUN dotnet publish MultiStage.csproj -c Release -o /app
+RUN dotnet --version
 
 WORKDIR /app
 
