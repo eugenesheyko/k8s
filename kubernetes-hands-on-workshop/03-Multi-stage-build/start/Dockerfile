@@ -1,4 +1,3 @@
-# Use an appropriate base image with .NET already installed
 FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 
 WORKDIR /app
