@@ -12,7 +12,6 @@ COPY . .
 
 RUN dotnet build MultiStage.csproj -c Release
 RUN dotnet publish MultiStage.csproj -c Release -o /app
-RUN dotnet --version
 
 WORKDIR /app
 
