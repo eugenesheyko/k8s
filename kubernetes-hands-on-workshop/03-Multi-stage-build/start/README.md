@@ -81,7 +81,7 @@ Step 1: Build the Dockerfile
    EXPOSE 5000
    ```
 
-   These lines tell .NET and Docker respectively what ports to use for the web server.  We saw a similar `EXPOSE` line in the Node app's Dockerfile.
+   These lines tell .NET and Docker respectively what ports to use for the web server. We saw a similar ***EXPOSE*** line in the Node app's Dockerfile.
 
 11. Add this line:
 
