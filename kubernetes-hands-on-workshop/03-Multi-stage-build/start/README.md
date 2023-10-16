@@ -89,7 +89,7 @@ Step 1: Build the Dockerfile
     CMD ["dotnet", "MultiStage.dll"]
     ```
 
-    This is the command it'll run when the container starts up.  All the other lines are run at build time.  This starts the web server.
+    This is the command it'll run when the container starts up. All the other lines are run at build time.  This starts the web server.
 
 12. Save the Dockerfile.  Make sure it's `Dockerfile` without an extension, not ~~Dockerfile.txt~~.
 
