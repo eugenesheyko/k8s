@@ -97,7 +97,7 @@ Step 1: Build the Dockerfile
 Step 2: Build the Dockerfile into an image
 ------------------------------------------
 
-1. Start a command prompt in the `src` folder, (the folder with the `Dockerfile` in it) and then run this:
+1. Start a command prompt in the ***src*** folder, (the folder with the `Dockerfile` in it) and then run this:
 
    ```
    docker build --tag hellodotnet:0.1 .
