@@ -103,7 +103,7 @@ Step 2: Build the Dockerfile into an image
    docker build --tag hellodotnet:0.1 .
    ```
 
-   This says "Build the current directory's Dockerfile into an image, and tag the image with the name `hellodotnet` and the version `0.1`".
+   This says "Build the current directory's Dockerfile into an image, and tag the image with the name ***hellodotnet*** and the version `0.1`".
 
 2. After it finishes, run this to see the image it built:
 
