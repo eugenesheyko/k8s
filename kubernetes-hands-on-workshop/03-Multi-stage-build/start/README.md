@@ -129,7 +129,7 @@ As you work through this section, if you find it doesn't work, look for debuggin
 
 2. Open a browser to [http://localhost:5000](http://localhost:5000).  Success!
 
-   Is it not running?  See step 4.
+   Is it not running? See step 4.
 
 3. To see running containers, run:
 
