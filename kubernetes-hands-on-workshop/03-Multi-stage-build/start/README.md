@@ -127,7 +127,7 @@ As you work through this section, if you find it doesn't work, look for debuggin
 
    This says "Run the image named ***hellodotnet***, version ***0.1*** as a container, and NAT the host's port 5000 to port 5000 in the container. ***-d*** says "run in daemon mode" or "run in the background".
 
-2. Open a browser to [http://localhost:5000](http://localhost:5000).  Success!
+2. Open a browser to [http://localhost:5000](http://localhost:5000). Success!
 
    Is it not running? See step 4.
 
