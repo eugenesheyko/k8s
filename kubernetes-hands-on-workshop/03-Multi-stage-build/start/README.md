@@ -153,7 +153,7 @@ Did your container not start up correctly in Step 4? Let's look for clues to wha
 
 4. Remove the stopped container using Step 5 below, then return to Step 2 to rebuild the image, and rerun the container.
 
-5. Start the container using `docker run -p 5000:5000 hellodotnet:0.1` without the `-d` so the console output comes straight to your screen.
+5. Start the container using ***docker run -p 5000:5000 hellodotnet:0.1*** without the ***-d*** so the console output comes straight to your screen.
 
 6. When you're ready, use CNTRL-C to break out of the console, and get back to the host's terminal.
 
