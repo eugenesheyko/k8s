@@ -165,7 +165,7 @@ Step 5: Stop and Remove the container
 
 1. Run ***docker container list --all*** to see both running and stopped containers. Note the ***CONTAINER ID*** and/or the ***NAMES*** of the container.
 
-2. Run ***docker container rm -f ...*** replacing ***...*** with the first few characters of the ***CONTAINER ID*** or the `NAMES` you found above.  This both stops and removes the container in one shot.
+2. Run ***docker container rm -f ...*** replacing ***...*** with the first few characters of the ***CONTAINER ID*** or the ***NAMES*** you found above.  This both stops and removes the container in one shot.
 
    The read-write layer for this container is now gone.  Good thing we didn't save anything there.
 
