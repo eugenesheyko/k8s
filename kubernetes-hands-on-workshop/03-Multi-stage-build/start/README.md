@@ -169,7 +169,7 @@ Step 5: Stop and Remove the container
 
    The read-write layer for this container is now gone. Good thing we didn't save anything there.
 
-3. Run `docker image list`.  The image is still there, only the container we created by running the image is gone.
+3. Run ***docker image list***. The image is still there, only the container we created by running the image is gone.
 
 
 Step 6: Modify the Dockerfile to be multi-stage
