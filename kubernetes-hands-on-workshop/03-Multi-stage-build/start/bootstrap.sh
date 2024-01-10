@@ -4,6 +4,7 @@ amazon-linux-extras install php7.2 -y
 yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
+systemctl status httpd
 cd /var/www/html
 wget https://wordpress.org/latest.tar.gz
 tar -xzf latest.tar.gz
