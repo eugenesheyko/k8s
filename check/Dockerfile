@@ -19,3 +19,4 @@ WORKDIR /app
 COPY --from=build /app .
 
 CMD ["dotnet", "MultiStage.dll"]
+RUN dotnet --version
